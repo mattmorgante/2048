@@ -16,3 +16,45 @@
 # 4,4,-,- NOT 8,-,-,- 
 # should only result in each integer being added max of one time ? 
 # every move results in a new empty tile with the value of 2 
+
+
+class Grid 
+  attr_accessor :size, :score 
+
+  def initialize 
+    @size = 4
+    @score = 0
+  end 
+
+  def move 
+    # get input from the user 
+    # wsad 
+  end 
+
+  def new_number 
+    #creates a new cell with 2 
+  end 
+
+  def slide 
+    # move all the numbers within the grid
+  end 
+
+  def sum 
+    # add like cells and make them a single cell 
+  end 
+
+  begin 
+    game = Grid.new 
+    loop do 
+    print "? "
+    game.move 
+  end 
+
+  #something happens if the game is over 
+
+  def game_over 
+    # all the grid's cells are full and different numbers 
+  end 
+
+
+end  
